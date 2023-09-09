@@ -1,0 +1,26 @@
+.NavBarBox{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    max-width: 100%;
+    min-height: 4em;
+    align-items: center;
+    position:sticky;
+    min-width: 100%;
+}
+.NavButton{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(94, 94, 122);
+    color: aliceblue;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+
+.NavSelected{
+    background-color: rgb(124, 74, 124);
+}
+

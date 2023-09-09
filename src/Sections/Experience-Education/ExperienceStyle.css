@@ -1,0 +1,86 @@
+.ExperiencePageMain{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.ExpHeader{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 25%;
+    /* padding: 0.5em; */
+}
+
+.BadgesBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* border: solid thin black; */
+    margin: 1em;
+    box-shadow:0px 0px 10px black;
+    padding: 0.5em;
+}
+
+.badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.BadgeImage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 2em;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 30px rgb(94, 94, 122); 
+}
+
+.ResumePDF{
+    width: 50%;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0px 0px 10px black ;
+    font-size:30px;
+    text-decoration:none;
+    color:rgb(46, 46, 143);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:url('../../Resources/PDF/ResumePreiveiw.PNG');
+}
+
+.ReactFrontEnd{  
+    background-image: url('../../Resources/Images/UprightBadges/react-front-end-development.png');
+}
+
+.JSDev{
+    background-image: url('../../Resources/Images/UprightBadges/javascript-development-foundations.png');
+}
+.MongoDB{
+    background-image: url('../../Resources/Images/UprightBadges/express-mongodb-back-end-development.png');
+}
+.FULLJS{
+    background-image: url('../../Resources/Images/UprightBadges/full-stack-javascript-software-development-bootcamp.png');
+}
+
+@media screen and (max-width:680px) {
+    .badges{
+        flex-direction: column;
+    }
+    .BadgeImage{
+        height: 10em;
+    }
+}

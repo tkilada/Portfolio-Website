@@ -1,0 +1,33 @@
+.Foot{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(94, 94, 122, 0.541);
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 100%;
+}
+.SecondTeaserRow{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  
+}
+.LinkBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 100%;
+    /* border: solid black thick; */
+    text-decoration: none;
+    color: rgb(42, 42, 54);
+    position: relative;
+}
+
+.ExperienceSquare{
+    margin-right: 1em ;
+    
+}

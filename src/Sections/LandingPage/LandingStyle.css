@@ -1,0 +1,50 @@
+.LandingPageBox{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* overflow-y: scroll; */
+    background-color:  rgb(15, 2, 49);
+    height: 90%;
+
+}
+
+.introTextBox{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.introText{
+    color: rgb(30, 255, 0);
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse ;
+    align-self: center;
+    font-weight: 300;
+} 
+
+
+.WorkBTN{
+    margin: 1em;
+    height: 6.5em;
+    width: 10em; 
+    padding-top: .7em;
+    padding-bottom: .7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color:  rgb(18,2,59);
+    color: white;
+    font-weight: 4000;
+    border: 2px solid #008000;
+    border-radius: 10px;
+    position: relative;
+}
+
+.particles{
+    height: 40%;
+}

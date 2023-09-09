@@ -1,0 +1,80 @@
+.ContactPage{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.ContactInputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    padding: 1.5em;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    border: thin solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 1em
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 100%;
+    border: solid thin black;
+    margin: 1em;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* Name and Email */
+
+.emailInput,.NameInput{
+    height: 30%;
+    width: 100%;
+}
+
+
+/* Message */
+
+.MessageArea{
+    width: 100%;
+    height: 100%;
+    padding: 0.25em;
+    resize: none;
+}
+
+
+.SendBTN{
+    background-color: green;
+    display: flex;
+    padding: .5em;
+}
+
+.InputBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media screen and (max-width:680px) {
+    .ContactInputContainer{
+        flex-direction: column;
+    }
+}
