@@ -2,7 +2,6 @@ import React from 'react'
 
 
 const CarouselBox = ({data,slide}) => {
-  console.log(data.slideData)
   return (
     <div className='CarouselBox'>
         <h2 className='LoginTitle'>{data.Title}</h2>

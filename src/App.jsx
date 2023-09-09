@@ -16,9 +16,6 @@ import { useEffect, useState } from 'react';
 function App() {
   const [isProjectOpen, setIsProjectOpen ] = useState(false)
   const [navPage, setNavPage] = useState('Home')
-  useEffect(() => {
-    document.title = 'Thomas Kilada';
-  }, []);
   return (
    <div className='PageBox'>
     <NavigationBar navPage={navPage}></NavigationBar>

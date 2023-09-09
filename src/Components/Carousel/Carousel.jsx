@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 import './Carousel.css' 
-import LoginPage from "../../Resources/Images/GameProject/Zorkington-Login-Screen.PNG"
 import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from "react-icons/bs"
-import CarouselBox from './CarouselBox/CarouselBox'
+
 
 export const Carousel = ({data, slide, setSlide}) => {
 
@@ -31,8 +30,6 @@ export const Carousel = ({data, slide, setSlide}) => {
           return <button key = {index} onClick={()=>setSlide(index)} className={slide === index ? 'indicator' : "indicator indicator-inactive"}></button>
         })}
       </span>
-      
-    
     </div>
   )
 }
