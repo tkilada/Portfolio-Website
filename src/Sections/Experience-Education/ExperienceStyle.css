@@ -11,7 +11,6 @@
     align-content: center;
     width: 100%;
     height: 25%;
-    /* padding: 0.5em; */
 }
 
 .BadgesBox{
@@ -19,7 +18,6 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    /* border: solid thin black; */
     margin: 1em;
     box-shadow:0px 0px 10px black;
     padding: 0.5em;
@@ -32,8 +30,8 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    
 }
+
 .BadgeImage{
     display: flex;
     align-items: flex-start;
@@ -48,6 +46,7 @@
 }
 
 .ResumePDF{
+    padding: 0.25em;
     width: 50%;
     display: flex;
     height: 50%;
@@ -69,9 +68,11 @@
 .JSDev{
     background-image: url('../../Resources/Images/UprightBadges/javascript-development-foundations.png');
 }
+
 .MongoDB{
     background-image: url('../../Resources/Images/UprightBadges/express-mongodb-back-end-development.png');
 }
+
 .FULLJS{
     background-image: url('../../Resources/Images/UprightBadges/full-stack-javascript-software-development-bootcamp.png');
 }

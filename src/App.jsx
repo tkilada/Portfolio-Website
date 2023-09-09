@@ -11,12 +11,14 @@ import Project2Page from './Sections/Porfolio Projects/ProjectPages/Project2/Pro
 import Project1Page from './Sections/Porfolio Projects/ProjectPages/Project1/Project1Page';
 import Project3Page from './Sections/Porfolio Projects/ProjectPages/Project3/Project3Page';
 import Footer from './Components/Footer/Footer';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   const [isProjectOpen, setIsProjectOpen ] = useState(false)
   const [navPage, setNavPage] = useState('Home')
-
+  useEffect(() => {
+    document.title = 'Thomas Kilada';
+  }, []);
   return (
    <div className='PageBox'>
     <NavigationBar navPage={navPage}></NavigationBar>

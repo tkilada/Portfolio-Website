@@ -61,17 +61,15 @@
     
 }
 
-
 .text{
     margin-top: 1em;
     color:darkslategray;
     justify-self:flex-end ;
 }
 
-
 .WebCode{
     display: flex;
-    
+
 }
 
 @media screen and (max-width:680px) {

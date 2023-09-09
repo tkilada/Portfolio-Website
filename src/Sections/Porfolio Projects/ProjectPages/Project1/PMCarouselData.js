@@ -17,13 +17,13 @@ export const slides = {
         name:"Action Steps Page",
         src: DevActionSteps,
         alt: 'Developed Action Steps',
-        description:'The client tasked my group with updating the page to make it more user friendly and accessible.'
+        description:'The client tasked my group with updating the Peak Minds website to allow the company to expand and provide its services to law enforcement. My group and I set out to create a more user friendly and accessible experience to incorperate this new target demographic.'
         },
         {
         name:"Logbook Page",
         src: DevLogbook,
         alt: 'Developed Logbook',
-        description:'I gained valueable experience working with a team of other developers as well as working with an existing code base.'
+        description:'I gained valuable experience working with both a team of other developers, as well as working within an existing code base.'
         },
         {
         name:"Resources Page",

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Container } from "reactstrap";
 import AboutPageStyle from "./AboutPageStyle.css";
 import {PolarAngleAxis, PolarGrid, PolarRadiusAxis, RadarChart, ResponsiveContainer, Treemap, Radar} from 'recharts'
-
+import SkillIcon from '../../Resources/Images/SkillIcon.svg'
 function About({setNavPage}) {
   const data = [
     {
@@ -66,7 +66,7 @@ function About({setNavPage}) {
             <div className="IconsBox">
               <img
                 className="AboutIcon"
-                src="https://picsum.photos/200/300"
+                src={SkillIcon}
                 alt="About Me Icon 1"
               />
               <h4>Focus on Intuitive UI design</h4>
@@ -74,7 +74,7 @@ function About({setNavPage}) {
             <div className="IconsBox">
               <img
                 className="AboutIcon"
-                src="https://picsum.photos/200/300"
+                src={SkillIcon}
                 alt=" About Me Icon 2"
               />
               <h4>Fast and Efficient Software</h4>
@@ -82,7 +82,7 @@ function About({setNavPage}) {
             <div className="IconsBox">
               <img
                 className="AboutIcon"
-                src="https://picsum.photos/200/300"
+                src={SkillIcon}
                 alt="About Me Icon 1"
               />
               <h4>Capable in Both Front and Backend Development</h4>
@@ -90,7 +90,7 @@ function About({setNavPage}) {
             <div className="IconsBox">
               <img
                 className="AboutIcon"
-                src="https://picsum.photos/200/300"
+                src={SkillIcon}
                 alt="About Me Icon 1"
               />
               <h4>Committed to thorough research and analysis</h4>

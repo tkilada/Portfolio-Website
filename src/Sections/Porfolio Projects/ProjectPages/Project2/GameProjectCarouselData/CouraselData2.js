@@ -9,24 +9,26 @@ export const slides = {
   source:"https://github.com/tkilada/FarmGame",
   slideData:[
     {
-    src:LoginPageImg,
-    alt:"LoginPage",
-    description: "This project was a react web based expansion of a different project. I took a text based game and used react to make the game web based therfore more easily playable."
+    src:FieldImg,
+    alt:"Field Page",
+    description: "This project was a react web based expansion of a different project. I took a text based game I had completed during my bootcamp course and used react to make the game web based therfore more easily playable."
     },
     {
     src:FarmHouseImg,
     alt:"FarmHouse Page",
-    description:"The game allows the user to navigate multiple rooms where they can plant crops or buy and sell what they grow."
-    },
-    {
-    src:FieldImg,
-    alt:"Field Page",
-    description:"The project has a backend server to handle the login info and store saved games"
+    description:"The game allows the user to navigate multiple rooms where they can pick up items, plant and harvest crops, and buy or sell what they collect to continue on."
     },
     {
     src:ShopsImg,
     alt:"I used this project to learn how to use React-Redux.",
-    }
+    description:"The game is turn based and tracks turns in months and years."
+    },
+    {
+    src:LoginPageImg,
+    alt:"Login Page",
+    description:"The project has a backend server to handle the user login and to store and saved games and load previous games connected to the users account."
+    },
+    
   ]
 }
 
