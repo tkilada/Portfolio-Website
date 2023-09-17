@@ -17,7 +17,7 @@ export const slides = {
         name:"Action Steps Page",
         src: DevActionSteps,
         alt: 'Developed Action Steps',
-        description:'The client tasked my group with updating the Peak Minds website to allow the company to expand and provide its services to law enforcement. My group and I set out to create a more user friendly and accessible experience to incorperate this new target demographic.'
+        description:'The client tasked my group with updating the Peak Minds website to allow the company to expand and provide its services to law enforcement. My group and I set out to create a more user friendly and accessible experience to incorporate this new target demographic.'
         },
         {
         name:"Logbook Page",

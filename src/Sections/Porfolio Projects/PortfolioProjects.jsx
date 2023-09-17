@@ -4,6 +4,7 @@ import ProjectsPage from "./ProjectsPage.css";
 import { Link, Outlet, Route, Routes, useNavigate } from "react-router-dom";
 import PMIMG from '../../Resources/Images/PeakMindImages/PeakMindLogo.png'
 import ChessIMG from  '../../Resources/Images/ChessEngine/ChessBoardBackground.PNG'
+import { Card } from "react-bootstrap";
 function PortfolioProjects({isProjectOpen, setIsProjectOpen,setNavPage}) {
   useEffect(()=>{
     setNavPage('Portfolio')
@@ -20,7 +21,7 @@ function PortfolioProjects({isProjectOpen, setIsProjectOpen,setNavPage}) {
   }
   // console.log(isProjectOpen)
   return (
-  <Container className="Projects BodyBox">
+  <div className="Projects BodyBox">
     <div className="PortfolioTable" onClick={handleCloseProject}>
       <Link className="Card PeakMind" to="/Portfolio/Project1" onClick={OpenProject}>
         <h3 className="text">Peak Mind Project</h3>
@@ -33,8 +34,15 @@ function PortfolioProjects({isProjectOpen, setIsProjectOpen,setNavPage}) {
         <h3 className="text">Chess Engine</h3>
       </Link>
     </div>
+    <div className="PortfolioTable">
+      <Link className="Card PokedexProject" to = '/Portfolio/Pokedex' onClick={OpenProject}>
+        <h3 className="text">
+          Pokedex
+        </h3>
+      </Link>
+    </div>
     <Outlet></Outlet>
-  </Container> 
+  </div> 
 
   );
 }

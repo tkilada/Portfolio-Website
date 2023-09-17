@@ -8,7 +8,7 @@ export const slides = {
         {
           src: ChessEngineMain,
           alt:"Chess Engine Web Page Image",
-          description:"Chess Engine Made with the Chessboard.Js library"  
+          description:"Chess Engine made with the Chessboard.Js library"  
         },
         
     ]

@@ -56,9 +56,10 @@ function About({setNavPage}) {
             alt="AboutME IMG"
           />
           <p className="Intro">
-            I'm a full stack developer based out of whestchester, NY. I am
+            I'm a full stack developer based out of Westchester, NY. I am
             passionate about creating excellent software for all types of
             applications.
+
           </p>
         </div>
         <div className="AboutSkillsBox FullHW">

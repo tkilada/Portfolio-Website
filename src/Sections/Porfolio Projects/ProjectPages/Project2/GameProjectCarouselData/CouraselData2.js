@@ -11,7 +11,7 @@ export const slides = {
     {
     src:FieldImg,
     alt:"Field Page",
-    description: "This project was a react web based expansion of a different project. I took a text based game I had completed during my bootcamp course and used react to make the game web based therfore more easily playable."
+    description: "This project was a react web based expansion of a different project. I took a text based game I had completed during my bootcamp course and used react to make the game web based therefore more easily playable."
     },
     {
     src:FarmHouseImg,
@@ -26,7 +26,7 @@ export const slides = {
     {
     src:LoginPageImg,
     alt:"Login Page",
-    description:"The project has a backend server to handle the user login and to store and saved games and load previous games connected to the users account."
+    description:"The project has a backend server to handle the user login and to store and save games and load previous games connected to the users account."
     },
     
   ]

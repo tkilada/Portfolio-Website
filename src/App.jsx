@@ -12,6 +12,9 @@ import Project1Page from './Sections/Porfolio Projects/ProjectPages/Project1/Pro
 import Project3Page from './Sections/Porfolio Projects/ProjectPages/Project3/Project3Page';
 import Footer from './Components/Footer/Footer';
 import { useEffect, useState } from 'react';
+import PokedexMain from './Sections/Porfolio Projects/ProjectPages/Pokedex/PokedexMain';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import PokedexCarousel from './Sections/Porfolio Projects/ProjectPages/Pokedex/PokedexCarousel';
 
 function App() {
   const [isProjectOpen, setIsProjectOpen ] = useState(false)
@@ -28,6 +31,7 @@ function App() {
           <Route path='Project1' element={<Project1Page isProjectOpen={isProjectOpen} setIsProjectOpen={setIsProjectOpen}/>}/>
           <Route path='Project2' element={<Project2Page isProjectOpen={isProjectOpen} setIsProjectOpen = {setIsProjectOpen}/>}/>
           <Route path='Project3' element={<Project3Page isProjectOpen={isProjectOpen} setIsProjectOpen = {setIsProjectOpen}/>}/>
+          <Route path='Pokedex' element={<PokedexCarousel isProjectOpen={isProjectOpen} setIsProjectOpen = {setIsProjectOpen}/>}/>
         </Route>
       </Routes>
     <Footer></Footer>

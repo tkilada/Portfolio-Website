@@ -1,0 +1,57 @@
+.Pokedex{
+    background-color:#cc0000;
+    padding: 1em;
+    
+}
+.PokedexCarousel{
+    display: flex;
+    flex-direction: column;
+}
+
+.PokedexSearch{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    width: 100%;
+}
+.typeSearch{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.dropdown-toggle{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    align-self: center;
+    justify-content: center;
+}
+
+.moves{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 10em;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.typeList{
+    width: 55em;
+}
+th{
+    width: 27.5em;
+}
+.List:hover{
+    background-color: yellowgreen;
+}
