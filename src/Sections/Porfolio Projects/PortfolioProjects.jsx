@@ -34,7 +34,7 @@ function PortfolioProjects({isProjectOpen, setIsProjectOpen,setNavPage}) {
         <h3 className="text">Chess Engine</h3>
       </Link>
     </div>
-    <div className="PortfolioTable">
+    <div className="PortfolioTable" onClick={handleCloseProject}>
       <Link className="Card PokedexProject" to = '/Portfolio/Pokedex' onClick={OpenProject}>
         <h3 className="text">
           Pokedex

@@ -3,6 +3,11 @@
     padding: 1em;
     
 }
+.Poke{
+    display: flex;
+    width: 100%;
+    
+}
 .PokedexCarousel{
     display: flex;
     flex-direction: column;
@@ -54,4 +59,9 @@ th{
 }
 .List:hover{
     background-color: yellowgreen;
+}
+
+.stick{
+    position: sticky;
+    bottom: 0;
 }
