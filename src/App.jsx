@@ -16,6 +16,8 @@ import PokedexMain from './Sections/Porfolio Projects/ProjectPages/Pokedex/Poked
 import 'bootstrap/dist/css/bootstrap.min.css'
 import PokedexCarousel from './Sections/Porfolio Projects/ProjectPages/Pokedex/PokedexCarousel';
 
+
+
 function App() {
   const [isProjectOpen, setIsProjectOpen ] = useState(false)
   const [navPage, setNavPage] = useState('Home')

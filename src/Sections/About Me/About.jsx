@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import AboutPageStyle from "./AboutPageStyle.css";
 import {PolarAngleAxis, PolarGrid, PolarRadiusAxis, RadarChart, ResponsiveContainer, Treemap, Radar} from 'recharts'
 import SkillIcon from '../../Resources/Images/SkillIcon.svg'
+import MePic from '../../Resources/Images/AboutMePicture.PNG'
 function About({setNavPage}) {
   const data = [
     {
@@ -52,14 +53,13 @@ function About({setNavPage}) {
         <div className="LeftBox">
           <img
             className="AboutImage"
-            src="https://picsum.photos/200/300"
+            src={MePic}
             alt="AboutME IMG"
           />
           <p className="Intro">
             I'm a full stack developer based out of Westchester, NY. I am
             passionate about creating excellent software for all types of
             applications.
-
           </p>
         </div>
         <div className="AboutSkillsBox FullHW">

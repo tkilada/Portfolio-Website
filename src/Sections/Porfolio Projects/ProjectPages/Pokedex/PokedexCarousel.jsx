@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PokedexMain from './PokedexMain'
 import CarouselBox from '../../../../Components/Carousel/CarouselBox/CarouselBox'
 import { slides } from '../Project1/PMCarouselData'
 
 
-const PokedexCarousel = () => {
-
-
+const PokedexCarousel = ({setIsProjectOpen,isProjectOpen}) => {
+  useEffect(()=>{
+    setIsProjectOpen(true)
+  },[])
+  console.log(isProjectOpen)
   return (
     <div className='ProjectContainer Pokedex'>
         <h1>Pokedex</h1>
