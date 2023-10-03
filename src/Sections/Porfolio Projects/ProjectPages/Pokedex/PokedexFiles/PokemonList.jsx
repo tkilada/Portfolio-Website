@@ -3,19 +3,19 @@ import { ListGroup, Table } from 'react-bootstrap'
 
 const PokemonList = ({setPokemonData,PokeListData}) => {
   const PokeList = PokeListData;
-  console.log(PokeList, "here");
+  // console.log(PokeList);
 
   const handleApi = async (url) => {
     const res = await fetch(url);
     console.log(res);
     let data = await res.json();
-    console.log(data, "here");
+    // console.log(data);
     setPokemonData(data);
   };
 
   const handlePokeSearch = (e) => {
     e.preventDefault();
-    console.log(e.target.id);
+    // console.log(e.target.id);
     handleApi(e.target.id);
   };
   return (

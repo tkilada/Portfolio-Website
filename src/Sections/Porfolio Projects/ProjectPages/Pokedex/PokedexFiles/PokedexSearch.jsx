@@ -5,7 +5,7 @@ import { Input } from 'reactstrap'
 const PokedexSearch = ({setPokemonData}) => {
     const input = useRef()
     const handleApi = async(e) =>{
-        const Pokemon = input.current.value
+        const Pokemon = (input.current.value).toLowerCase()
         e.preventDefault()
         let url = `https://pokeapi.co/api/v2/pokemon/${Pokemon}`
         const res = await fetch(url)

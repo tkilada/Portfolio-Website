@@ -69,16 +69,6 @@ function PortfolioProjects({isProjectOpen, setIsProjectOpen,setNavPage}) {
             </Card.Title>
           </Card.Body>
       </Card>
-      <Card className="Card ChatRoomApp" onClick={handleOpenproject}>
-        <Card.Img variant="top" id = 'ChatApp' src={PokedexIMG}></Card.Img>
-        <Card.Body>
-          <Card.Title>
-            <h3 className="text">
-              Chat App
-            </h3>
-          </Card.Title>
-        </Card.Body>
-      </Card>
     </div>
     <Outlet></Outlet>
   </div> 
