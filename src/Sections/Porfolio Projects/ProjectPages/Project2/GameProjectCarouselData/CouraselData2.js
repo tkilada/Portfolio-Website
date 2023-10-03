@@ -26,7 +26,7 @@ export const slides = {
     {
     src:LoginPageImg,
     alt:"Login Page",
-    description:"The project has a backend server to handle the user login and to store and save games and load previous games connected to the users account."
+    description:"The project has a backend server connected to a mongodb database, in order to handle user login as well as to store and load saved games connected to the users account."
     },
     
   ]
